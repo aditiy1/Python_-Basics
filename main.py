@@ -1,29 +1,18 @@
-# name="Aditi"
-# print('Hello '+name)
+import random
+num=random.randint(1,10)
+print(num)
 
-#create list
-# fruits = ["apple", "orange", "banana", "cherry"]
+guess=int(input("guess a number between 1 and 10: "))
 
-# print(fruits)
-# #add watermelon to list fruits
-# fruits.append("watermelon")
-# print(fruits)
-# print(fruits[0])
-# print(fruits[3])
-# print(fruits[-1])
-# fruits.insert(1, "pineapple")
-# print(fruits)
-# print(len(fruits))
+while guess != num:
+  if guess < num:
+    print("your guess was lower than the number!")
+    guess=int(input("Guess again: "))
+    guess=guesses+1
+  elif guess > num
+    print("your guess was higher than the number!")
+  guess=int(input("Guess again: "))
+  guess=guesses+1
 
-# for i in range(len(fruits)):
-#   print(fruits[i])
-
-# for each in fruits:
-#   print(each)
-
-# for value in fruits:
-#   print(value)
-
-# t=(1,2,3,4,5)
-# print(len(t))
-
+print("Congrats! You guessed the number!")
+  
